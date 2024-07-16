@@ -1,0 +1,55 @@
+.Title{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 80px;
+  border: 2px solid black;
+   
+}
+
+/* .Title>img{
+  border-radius: 50%;
+} */
+.Title>button{
+  margin-top:20px ;
+  height: 20px;
+  width: 70px;
+  color: green;
+}
+
+
+.Card{
+  width: 200px;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+.Card>img{
+  width: 100%;
+}
+
+
+.restaurant-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Header{
+  display: flex;
+  justify-content:space-between;
+}
+
+.Header>img{
+  width: 8%;
+  border-radius: 50%;
+  height: 80px;
+}
+
+.Header>ul{
+  display: flex;
+  justify-content:space-evenly;
+  margin:10px;
+  list-style: none;
+  color:green;
+}
